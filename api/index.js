@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 
 const app = express();
 
@@ -146,4 +146,4 @@ app.get("/api/comments/counts", async (_req, res) => {
   }
 });
 
-module.exports = app;
+export default app;
